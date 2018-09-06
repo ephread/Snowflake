@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F81EC5DF9340A80EC7F16B1 /* Pods_SnowflakeDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C79D1D44812598EEB13F6D2D /* Pods_SnowflakeDemo.framework */; };
 		924D19A51DCFC42800E18BB1 /* christmas.svg in Resources */ = {isa = PBXBuildFile; fileRef = 924D19A21DCFC42800E18BB1 /* christmas.svg */; };
 		924D19A71DCFC42800E18BB1 /* snowflake.svg in Resources */ = {isa = PBXBuildFile; fileRef = 924D19A41DCFC42800E18BB1 /* snowflake.svg */; };
 		924D19B21DCFC80C00E18BB1 /* line.svg in Resources */ = {isa = PBXBuildFile; fileRef = 924D19A91DCFC80C00E18BB1 /* line.svg */; };
@@ -26,6 +25,12 @@
 		924D19CB1DCFE06800E18BB1 /* polygon4.svg in Resources */ = {isa = PBXBuildFile; fileRef = 924D19C71DCFE06800E18BB1 /* polygon4.svg */; };
 		924D19CE1DCFE49F00E18BB1 /* polyline1.svg in Resources */ = {isa = PBXBuildFile; fileRef = 924D19CC1DCFE49F00E18BB1 /* polyline1.svg */; };
 		924D19CF1DCFE49F00E18BB1 /* polyline2.svg in Resources */ = {isa = PBXBuildFile; fileRef = 924D19CD1DCFE49F00E18BB1 /* polyline2.svg */; };
+		B63F004C2140FF3500B66207 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B63F004B2140FF3500B66207 /* Assets.xcassets */; };
+		B63F00552140FFCE00B66207 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B63F00522140FFC200B66207 /* LaunchScreen.storyboard */; };
+		B6AE33372141046B003B3F12 /* Snowflake.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6E7FAD7214104120039FD8E /* Snowflake.framework */; };
+		B6AE33382141046B003B3F12 /* Snowflake.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B6E7FAD7214104120039FD8E /* Snowflake.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B6E7FACC214102EE0039FD8E /* Reindeers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6E7FACA214102E40039FD8E /* Reindeers.framework */; };
+		B6E7FACD214102EE0039FD8E /* Reindeers.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B6E7FACA214102E40039FD8E /* Reindeers.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D226645B1DE4FFAC00DDAC1A /* path_a1.svg in Resources */ = {isa = PBXBuildFile; fileRef = D226645A1DE4FFAC00DDAC1A /* path_a1.svg */; };
 		D26992CB1DEE36BA00A9B298 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D26992CA1DEE36BA00A9B298 /* Main.storyboard */; };
 		D26992CD1DEE373E00A9B298 /* ScaleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26992CC1DEE373E00A9B298 /* ScaleController.swift */; };
@@ -45,11 +50,62 @@
 		D2FE0D821DECCB160080BE48 /* christmas_ornament.svg in Resources */ = {isa = PBXBuildFile; fileRef = D2FE0D811DECCB160080BE48 /* christmas_ornament.svg */; };
 		D2FE0D841DECCD9B0080BE48 /* location.svg in Resources */ = {isa = PBXBuildFile; fileRef = D2FE0D831DECCD9B0080BE48 /* location.svg */; };
 		D2FE0D881DECD0470080BE48 /* christmas_tree.svg in Resources */ = {isa = PBXBuildFile; fileRef = D2FE0D871DECD0470080BE48 /* christmas_tree.svg */; };
-		D5C7F74E1C3BC9CE008CDDBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5C7F74C1C3BC9CE008CDDBA /* LaunchScreen.storyboard */; };
-		D5C7F75B1C3BCA1E008CDDBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5C7F7571C3BCA1E008CDDBA /* Assets.xcassets */; };
 		D5C7F75C1C3BCA1E008CDDBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C7F7591C3BCA1E008CDDBA /* AppDelegate.swift */; };
 		D5C7F75D1C3BCA1E008CDDBA /* ListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C7F75A1C3BCA1E008CDDBA /* ListController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6AE33392141046B003B3F12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6E7FACF214104120039FD8E /* Snowflake.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D5B2E89E1C3A780C00C0327D;
+			remoteInfo = "Snowflake-iOS";
+		};
+		B6E7FAD6214104120039FD8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6E7FACF214104120039FD8E /* Snowflake.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D5B2E89F1C3A780C00C0327D;
+			remoteInfo = "Snowflake-iOS";
+		};
+		B6E7FAD8214104120039FD8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6E7FACF214104120039FD8E /* Snowflake.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D5C629401C3A7FAA007F7B7C;
+			remoteInfo = "Snowflake-macOS";
+		};
+		B6E7FADA214104120039FD8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6E7FACF214104120039FD8E /* Snowflake.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D5B2E8A91C3A780C00C0327D;
+			remoteInfo = "Snowflake-iOS-Tests";
+		};
+		B6E7FADC214104120039FD8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6E7FACF214104120039FD8E /* Snowflake.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D5C629491C3A7FAA007F7B7C;
+			remoteInfo = "Snowflake-macOS-Tests";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B6E7FACE214102EE0039FD8E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B6E7FACD214102EE0039FD8E /* Reindeers.framework in Embed Frameworks */,
+				B6AE33382141046B003B3F12 /* Snowflake.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		924D19A21DCFC42800E18BB1 /* christmas.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = christmas.svg; sourceTree = "<group>"; };
@@ -70,9 +126,10 @@
 		924D19C71DCFE06800E18BB1 /* polygon4.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = polygon4.svg; sourceTree = "<group>"; };
 		924D19CC1DCFE49F00E18BB1 /* polyline1.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = polyline1.svg; sourceTree = "<group>"; };
 		924D19CD1DCFE49F00E18BB1 /* polyline2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = polyline2.svg; sourceTree = "<group>"; };
-		9D3ABF4251B42A44636A6FE7 /* Pods-SnowflakeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnowflakeDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnowflakeDemo/Pods-SnowflakeDemo.release.xcconfig"; sourceTree = "<group>"; };
-		A3C4E929B6D8BF276C042446 /* Pods-SnowflakeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnowflakeDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnowflakeDemo/Pods-SnowflakeDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		C79D1D44812598EEB13F6D2D /* Pods_SnowflakeDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnowflakeDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B63F004B2140FF3500B66207 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B63F00532140FFC200B66207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6E7FACA214102E40039FD8E /* Reindeers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reindeers.framework; path = ../Carthage/Build/iOS/Reindeers.framework; sourceTree = "<group>"; };
+		B6E7FACF214104120039FD8E /* Snowflake.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Snowflake.xcodeproj; path = ../Snowflake.xcodeproj; sourceTree = "<group>"; };
 		D226645A1DE4FFAC00DDAC1A /* path_a1.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = path_a1.svg; sourceTree = "<group>"; };
 		D26992CA1DEE36BA00A9B298 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		D26992CC1DEE373E00A9B298 /* ScaleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleController.swift; sourceTree = "<group>"; };
@@ -93,9 +150,7 @@
 		D2FE0D831DECCD9B0080BE48 /* location.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = location.svg; sourceTree = "<group>"; };
 		D2FE0D871DECD0470080BE48 /* christmas_tree.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = christmas_tree.svg; sourceTree = "<group>"; };
 		D5C7F7401C3BC9CE008CDDBA /* SnowflakeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnowflakeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5C7F74D1C3BC9CE008CDDBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5C7F74F1C3BC9CE008CDDBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D5C7F7571C3BCA1E008CDDBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5C7F7591C3BCA1E008CDDBA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5C7F75A1C3BCA1E008CDDBA /* ListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,29 +160,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F81EC5DF9340A80EC7F16B1 /* Pods_SnowflakeDemo.framework in Frameworks */,
+				B6E7FACC214102EE0039FD8E /* Reindeers.framework in Frameworks */,
+				B6AE33372141046B003B3F12 /* Snowflake.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E79A52DC6F23F4A556DA20E /* Pods */ = {
+		B63F00502140FF6300B66207 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				A3C4E929B6D8BF276C042446 /* Pods-SnowflakeDemo.debug.xcconfig */,
-				9D3ABF4251B42A44636A6FE7 /* Pods-SnowflakeDemo.release.xcconfig */,
+				B63F00522140FFC200B66207 /* LaunchScreen.storyboard */,
+				D26992CA1DEE36BA00A9B298 /* Main.storyboard */,
 			);
-			name = Pods;
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		B63F005A2141027900B66207 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6E7FACA214102E40039FD8E /* Reindeers.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6E7FAD0214104120039FD8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6E7FAD7214104120039FD8E /* Snowflake.framework */,
+				B6E7FAD9214104120039FD8E /* Snowflake.framework */,
+				B6E7FADB214104120039FD8E /* Snowflake-iOS-Tests.xctest */,
+				B6E7FADD214104120039FD8E /* Snowflake-macOS-Tests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		D5C7F7371C3BC9CE008CDDBA = {
 			isa = PBXGroup;
 			children = (
-				D5C7F7421C3BC9CE008CDDBA /* SnowflakeDemo */,
+				B63F005A2141027900B66207 /* Frameworks */,
+				D5C7F7581C3BCA1E008CDDBA /* Sources */,
+				D5C7F7551C3BC9EA008CDDBA /* Supporting Files */,
 				D5C7F7411C3BC9CE008CDDBA /* Products */,
-				0E79A52DC6F23F4A556DA20E /* Pods */,
-				F6343F6BCE9BFA2CC5CD5516 /* Frameworks */,
+				B6E7FACF214104120039FD8E /* Snowflake.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,26 +215,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D5C7F7421C3BC9CE008CDDBA /* SnowflakeDemo */ = {
-			isa = PBXGroup;
-			children = (
-				D5C7F7561C3BCA1E008CDDBA /* Resources */,
-				D5C7F7581C3BCA1E008CDDBA /* Sources */,
-				D5C7F7551C3BC9EA008CDDBA /* Supporting Files */,
-			);
-			path = SnowflakeDemo;
-			sourceTree = "<group>";
-		};
 		D5C7F7551C3BC9EA008CDDBA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D5C7F74C1C3BC9CE008CDDBA /* LaunchScreen.storyboard */,
+				B63F004B2140FF3500B66207 /* Assets.xcassets */,
+				D5C7F7561C3BCA1E008CDDBA /* SVGs */,
 				D5C7F74F1C3BC9CE008CDDBA /* Info.plist */,
 			);
 			name = "Supporting Files";
+			path = "SnowflakeDemo/Supporting Files";
 			sourceTree = "<group>";
 		};
-		D5C7F7561C3BCA1E008CDDBA /* Resources */ = {
+		D5C7F7561C3BCA1E008CDDBA /* SVGs */ = {
 			isa = PBXGroup;
 			children = (
 				D27B1E2C1DEF78EB0032B0CB /* tree.svg */,
@@ -196,28 +264,20 @@
 				924D19B01DCFC80C00E18BB1 /* text2.svg */,
 				924D19A21DCFC42800E18BB1 /* christmas.svg */,
 				924D19A41DCFC42800E18BB1 /* snowflake.svg */,
-				D5C7F7571C3BCA1E008CDDBA /* Assets.xcassets */,
 			);
-			path = Resources;
+			path = SVGs;
 			sourceTree = "<group>";
 		};
 		D5C7F7581C3BCA1E008CDDBA /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				B63F00502140FF6300B66207 /* Storyboards */,
 				D5C7F7591C3BCA1E008CDDBA /* AppDelegate.swift */,
 				D5C7F75A1C3BCA1E008CDDBA /* ListController.swift */,
-				D26992CA1DEE36BA00A9B298 /* Main.storyboard */,
 				D26992CC1DEE373E00A9B298 /* ScaleController.swift */,
 			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		F6343F6BCE9BFA2CC5CD5516 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C79D1D44812598EEB13F6D2D /* Pods_SnowflakeDemo.framework */,
-			);
-			name = Frameworks;
+			name = Sources;
+			path = SnowflakeDemo/Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,16 +287,16 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D5C7F7521C3BC9CE008CDDBA /* Build configuration list for PBXNativeTarget "SnowflakeDemo" */;
 			buildPhases = (
-				581BBA8A7DA0EC7CED7D1229 /* [CP] Check Pods Manifest.lock */,
 				D5C7F73C1C3BC9CE008CDDBA /* Sources */,
 				D5C7F73D1C3BC9CE008CDDBA /* Frameworks */,
 				D5C7F73E1C3BC9CE008CDDBA /* Resources */,
-				5CDFA428342C4968179077C6 /* [CP] Embed Pods Frameworks */,
-				C953327B4B5E99FE86D093E5 /* [CP] Copy Pods Resources */,
+				B6E7FACE214102EE0039FD8E /* Embed Frameworks */,
+				B6AE333D2141067E003B3F12 /* Carthage */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B6AE333A2141046B003B3F12 /* PBXTargetDependency */,
 			);
 			name = SnowflakeDemo;
 			productName = SnowflakeDemo;
@@ -255,6 +315,7 @@
 				TargetAttributes = {
 					D5C7F73F1C3BC9CE008CDDBA = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = EV2G94D75V;
 						LastSwiftMigration = 0800;
 					};
 				};
@@ -270,6 +331,12 @@
 			mainGroup = D5C7F7371C3BC9CE008CDDBA;
 			productRefGroup = D5C7F7411C3BC9CE008CDDBA /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B6E7FAD0214104120039FD8E /* Products */;
+					ProjectRef = B6E7FACF214104120039FD8E /* Snowflake.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				D5C7F73F1C3BC9CE008CDDBA /* SnowflakeDemo */,
@@ -277,11 +344,43 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		B6E7FAD7214104120039FD8E /* Snowflake.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Snowflake.framework;
+			remoteRef = B6E7FAD6214104120039FD8E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6E7FAD9214104120039FD8E /* Snowflake.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Snowflake.framework;
+			remoteRef = B6E7FAD8214104120039FD8E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6E7FADB214104120039FD8E /* Snowflake-iOS-Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Snowflake-iOS-Tests.xctest";
+			remoteRef = B6E7FADA214104120039FD8E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6E7FADD214104120039FD8E /* Snowflake-macOS-Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Snowflake-macOS-Tests.xctest";
+			remoteRef = B6E7FADC214104120039FD8E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		D5C7F73E1C3BC9CE008CDDBA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B63F00552140FFCE00B66207 /* LaunchScreen.storyboard in Resources */,
 				924D19C01DCFD88E00E18BB1 /* ellipse1.svg in Resources */,
 				D2B98C441DE77BAF009D518A /* path_s1.svg in Resources */,
 				D2B98C451DE77BAF009D518A /* path_t1.svg in Resources */,
@@ -290,7 +389,6 @@
 				D2DAF1801DE9C77600FEB677 /* path_t3.svg in Resources */,
 				D28A4DC01DE64F610009FBF8 /* path_a2.svg in Resources */,
 				D2DAF1851DE9C97100FEB677 /* path_t6.svg in Resources */,
-				D5C7F75B1C3BCA1E008CDDBA /* Assets.xcassets in Resources */,
 				D226645B1DE4FFAC00DDAC1A /* path_a1.svg in Resources */,
 				D2DAF1771DE9B24400FEB677 /* shape_pencils.svg in Resources */,
 				924D19B81DCFC80C00E18BB1 /* text1.svg in Resources */,
@@ -299,8 +397,8 @@
 				924D19CE1DCFE49F00E18BB1 /* polyline1.svg in Resources */,
 				D2FE0D881DECD0470080BE48 /* christmas_tree.svg in Resources */,
 				D26992CB1DEE36BA00A9B298 /* Main.storyboard in Resources */,
-				D5C7F74E1C3BC9CE008CDDBA /* LaunchScreen.storyboard in Resources */,
 				924D19CB1DCFE06800E18BB1 /* polygon4.svg in Resources */,
+				B63F004C2140FF3500B66207 /* Assets.xcassets in Resources */,
 				924D19CF1DCFE49F00E18BB1 /* polyline2.svg in Resources */,
 				924D19B21DCFC80C00E18BB1 /* line.svg in Resources */,
 				924D19C81DCFE06800E18BB1 /* polygon1.svg in Resources */,
@@ -326,58 +424,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		581BBA8A7DA0EC7CED7D1229 /* [CP] Check Pods Manifest.lock */ = {
+		B6AE333D2141067E003B3F12 /* Carthage */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+				"$(SRCROOT)/../Carthage/Build/iOS/Reindeers.framework",
 			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SnowflakeDemo-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5CDFA428342C4968179077C6 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SnowflakeDemo/Pods-SnowflakeDemo-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Reindeers/Reindeers.framework",
-				"${BUILT_PRODUCTS_DIR}/Snowflake/Snowflake.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reindeers.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Snowflake.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnowflakeDemo/Pods-SnowflakeDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C953327B4B5E99FE86D093E5 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
+			name = Carthage;
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnowflakeDemo/Pods-SnowflakeDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -394,11 +454,19 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		B6AE333A2141046B003B3F12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Snowflake-iOS";
+			targetProxy = B6AE33392141046B003B3F12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		D5C7F74C1C3BC9CE008CDDBA /* LaunchScreen.storyboard */ = {
+		B63F00522140FFC200B66207 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D5C7F74D1C3BC9CE008CDDBA /* Base */,
+				B63F00532140FFC200B66207 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -452,7 +520,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -500,7 +568,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -510,11 +578,14 @@
 		};
 		D5C7F7531C3BC9CE008CDDBA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3C4E929B6D8BF276C042446 /* Pods-SnowflakeDemo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SnowflakeDemo/Info.plist;
+				DEVELOPMENT_TEAM = EV2G94D75V;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../Carthage/Build/iOS";
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				INFOPLIST_FILE = "$(SRCROOT)/SnowflakeDemo/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fantageek.SnowflakeDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -524,11 +595,14 @@
 		};
 		D5C7F7541C3BC9CE008CDDBA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D3ABF4251B42A44636A6FE7 /* Pods-SnowflakeDemo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SnowflakeDemo/Info.plist;
+				DEVELOPMENT_TEAM = EV2G94D75V;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../Carthage/Build/iOS";
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				INFOPLIST_FILE = "$(SRCROOT)/SnowflakeDemo/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fantageek.SnowflakeDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

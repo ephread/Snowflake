@@ -133,11 +133,11 @@
 		03EACE541E2500A4006984AC /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EACDDA1E2500A4006984AC /* Utils.swift */; };
 		03EACE551E2500A4006984AC /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EACDDA1E2500A4006984AC /* Utils.swift */; };
 		03EACE561E2500A4006984AC /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EACDDA1E2500A4006984AC /* Utils.swift */; };
+		B63F00582141020F00B66207 /* Reindeers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63F00572141020F00B66207 /* Reindeers.framework */; };
 		D24F80A41DAE22C4008185FF /* iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F80A31DAE22C4008185FF /* iOSTests.swift */; };
 		D24F80A81DAE2718008185FF /* SharedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F80A71DAE2718008185FF /* SharedTests.swift */; };
 		D24F80A91DAE2718008185FF /* SharedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F80A71DAE2718008185FF /* SharedTests.swift */; };
 		D24F80AB1DAE2727008185FF /* macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F80AA1DAE2727008185FF /* macOSTests.swift */; };
-		D29B65A01FBB20AA00BBFBDE /* Reindeers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29B659F1FBB20AA00BBFBDE /* Reindeers.framework */; };
 		D5B2E8AA1C3A780C00C0327D /* Snowflake.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B2E89F1C3A780C00C0327D /* Snowflake.framework */; };
 		D5C6294A1C3A7FAA007F7B7C /* Snowflake.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C629401C3A7FAA007F7B7C /* Snowflake.framework */; };
 /* End PBXBuildFile section */
@@ -193,13 +193,12 @@
 		03EACDD81E2500A4006984AC /* ColorList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorList.swift; sourceTree = "<group>"; };
 		03EACDD91E2500A4006984AC /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		03EACDDA1E2500A4006984AC /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		92DEE5271DC69D0C001F9A98 /* Reindeer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reindeer.framework; path = Carthage/Build/iOS/Reindeer.framework; sourceTree = "<group>"; };
+		B63F00572141020F00B66207 /* Reindeers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reindeers.framework; path = Carthage/Build/iOS/Reindeers.framework; sourceTree = "<group>"; };
 		D24F80A31DAE22C4008185FF /* iOSTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOSTests.swift; sourceTree = "<group>"; };
 		D24F80A71DAE2718008185FF /* SharedTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedTests.swift; sourceTree = "<group>"; };
 		D24F80AA1DAE2727008185FF /* macOSTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = macOSTests.swift; sourceTree = "<group>"; };
-		D29B659F1FBB20AA00BBFBDE /* Reindeers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reindeers.framework; path = Carthage/Build/iOS/Reindeers.framework; sourceTree = "<group>"; };
 		D500FD111C3AABED00782D78 /* Playground-iOS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Playground-iOS.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		D500FD121C3AAC8E00782D78 /* Playground-Mac.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Playground-Mac.playground"; sourceTree = "<group>"; };
+		D500FD121C3AAC8E00782D78 /* Playground-Mac.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Playground-Mac.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D5B2E89F1C3A780C00C0327D /* Snowflake.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Snowflake.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5B2E8A91C3A780C00C0327D /* Snowflake-iOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snowflake-iOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C629401C3A7FAA007F7B7C /* Snowflake.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Snowflake.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -215,9 +214,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D29B65A01FBB20AA00BBFBDE /* Reindeers.framework in Frameworks */,
 				03EACDB41E24FAAA006984AC /* CoreGraphics.framework in Frameworks */,
 				03EACDB51E24FAAA006984AC /* UIKit.framework in Frameworks */,
+				B63F00582141020F00B66207 /* Reindeers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,22 +327,28 @@
 		92DEE5261DC69D0C001F9A98 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D29B659F1FBB20AA00BBFBDE /* Reindeers.framework */,
+				B63F00572141020F00B66207 /* Reindeers.framework */,
 				03EACDB21E24FAAA006984AC /* CoreGraphics.framework */,
 				03EACDB31E24FAAA006984AC /* UIKit.framework */,
-				92DEE5271DC69D0C001F9A98 /* Reindeer.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B63F00562141004D00B66207 /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				D500FD111C3AABED00782D78 /* Playground-iOS.playground */,
+				D500FD121C3AAC8E00782D78 /* Playground-Mac.playground */,
+			);
+			path = Playgrounds;
 			sourceTree = "<group>";
 		};
 		D5B2E8951C3A780C00C0327D = {
 			isa = PBXGroup;
 			children = (
-				D500FD111C3AABED00782D78 /* Playground-iOS.playground */,
-				D500FD121C3AAC8E00782D78 /* Playground-Mac.playground */,
+				B63F00562141004D00B66207 /* Playgrounds */,
 				D5C629691C3A809D007F7B7C /* Sources */,
-				D5C6295C1C3A800E007F7B7C /* Snowflake */,
-				D5C6298F1C3A8BDA007F7B7C /* SnowflakeTests */,
+				D5C6298F1C3A8BDA007F7B7C /* Tests */,
 				D5B2E8A01C3A780C00C0327D /* Products */,
 				92DEE5261DC69D0C001F9A98 /* Frameworks */,
 			);
@@ -360,24 +365,25 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D5C6295C1C3A800E007F7B7C /* Snowflake */ = {
+		D5C6295C1C3A800E007F7B7C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				D5C6298B1C3A8BBD007F7B7C /* Info-iOS.plist */,
 				D5C6298C1C3A8BBD007F7B7C /* Info-Mac.plist */,
 			);
-			path = Snowflake;
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		D5C629691C3A809D007F7B7C /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				03EACDB61E2500A4006984AC /* iOS */,
+				D5C6295C1C3A800E007F7B7C /* Supporting Files */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		D5C6298F1C3A8BDA007F7B7C /* SnowflakeTests */ = {
+		D5C6298F1C3A8BDA007F7B7C /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				D5C629901C3A8BDA007F7B7C /* Info-iOS.plist */,
@@ -386,7 +392,7 @@
 				D5C629941C3A8BDA007F7B7C /* Mac */,
 				D5C629961C3A8BDA007F7B7C /* Shared */,
 			);
-			path = SnowflakeTests;
+			path = Tests;
 			sourceTree = "<group>";
 		};
 		D5C629921C3A8BDA007F7B7C /* iOS */ = {
@@ -519,6 +525,7 @@
 					D5B2E89E1C3A780C00C0327D = {
 						CreatedOnToolsVersion = 7.2;
 						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
 					};
 					D5B2E8A81C3A780C00C0327D = {
 						CreatedOnToolsVersion = 7.2;
@@ -526,6 +533,7 @@
 					};
 					D5C6293F1C3A7FAA007F7B7C = {
 						CreatedOnToolsVersion = 7.2;
+						ProvisioningStyle = Automatic;
 					};
 					D5C629481C3A7FAA007F7B7C = {
 						CreatedOnToolsVersion = 7.2;
@@ -590,7 +598,6 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/Reindeers.framework",
 			);
 			name = "Copy framework with Carthage";
 			outputPaths = (
@@ -822,7 +829,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-lxml2";
@@ -877,7 +884,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "-lxml2";
 				SDKROOT = iphoneos;
@@ -894,8 +901,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -903,12 +913,13 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/Snowflake/Info-iOS.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Supporting Files/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fantageek.Snowflake-iOS";
 				PRODUCT_NAME = Snowflake;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -918,8 +929,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -927,12 +941,13 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/Snowflake/Info-iOS.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Supporting Files/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fantageek.Snowflake-iOS";
 				PRODUCT_NAME = Snowflake;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -974,19 +989,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "$(SRCROOT)/Snowflake/Info-Mac.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Supporting Files/Info-Mac.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fantageek.Snowflake-Mac";
 				PRODUCT_NAME = Snowflake;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -997,19 +1015,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "$(SRCROOT)/Snowflake/Info-Mac.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Supporting Files/Info-Mac.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fantageek.Snowflake-Mac";
 				PRODUCT_NAME = Snowflake;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
