@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "absolute:/Users/fred/Documents/Development/Snowflake/Snowflake.xcodeproj">
+      location = "group:Snowflake.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Example/SnowflakeDemo.xcodeproj">
